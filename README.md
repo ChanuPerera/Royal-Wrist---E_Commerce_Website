@@ -13,8 +13,10 @@ All the users must register to buy a product. Admin can add, delete, update and 
 # Built With
 - PHP
 - HTML5
+- Javascript
 - CSS3
-- My SQL
+
+
 
 # Developer
 Chanuka perera
