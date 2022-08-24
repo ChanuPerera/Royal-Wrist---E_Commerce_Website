@@ -1,6 +1,3 @@
-# Royal-Wrist---E_Commerce_Website
-Online watch selling and buying Web Store
-
 
 # Royal Wrist - An E-Commerce website 
 Royal Wrist is an E-Commerce website for buying and selling wrist watches online
