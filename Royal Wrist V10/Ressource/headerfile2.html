@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<!-- IT21702372 W.C.I.PERERA-->
+<html>
+    <head>
+
+            <title>Royal Wrist</title>
+            <link rel="shortcut icon" href="asserts/logo.png" /> 
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+           <!-- CDN LIBS --> 
+            <link rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+            <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+            <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+
+
+    <body>
+
+
+        <?php
+            
+            
+
+            
+
+            $con=mysqli_connect("localhost","root","","royal");
+            $sql="SELECT * FROM user " ;
+            $result=mysqli_query($con,$sql);
+
+
+         ?>
+
+
+      
+
+        
+        
+
+        
+
+        <!--HEADER start-->
+
+        <section class="header">
+
+            <a href="#" class="logo">Royal Wrist</a>
+
+
+            <nav class="navbar">
+                <a href="home.php">Home</a>
+                <a href="product.php">Products</a>
+                <a href="about.php">About</a>
+                <a href="cart.php" aria-pressed="My Cart" title="My Cart"><i class="fa-solid fa-cart-shopping" ></i></a>
+                <a href="logout.php" aria-pressed="Log Out" title="Log Out"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <a href="useracc.php">
+                    <?php echo "<i class='fa-solid fa-user-pen'></i>".$_SESSION['userName'];?>
+                </a>
+                
+
+            </nav>
+
+            <!--Menu Button-->
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+
+            
+
+        </section>
+
+    </body>
+
+</html>
